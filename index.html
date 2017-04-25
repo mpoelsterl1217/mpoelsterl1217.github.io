@@ -2,6 +2,17 @@
 <html>
 	<head>
 		<title>Push</title>
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+		<script>
+			var OneSignal = window.OneSignal || [];
+			OneSignal.push(["init", {
+				appId: "c3f528a1-5c51-4895-843e-1c3baec28aa4",
+				autoRegister: false,
+				notifyButton: {
+				enable: true /* Set to false to hide */
+			}
+			}]);
+		  </script>
 	</head>
 	<body>
   </body>
