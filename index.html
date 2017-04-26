@@ -2,16 +2,17 @@
 <html>
 	<head>
 		<title>Push</title>
+		<link rel="manifest" href="/manifest.json">
 		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
 		<script>
 			var OneSignal = window.OneSignal || [];
 			OneSignal.push(["init", {
-				appId: "c3f528a1-5c51-4895-843e-1c3baec28aa4",
+		      		appId: "c3f528a1-5c51-4895-843e-1c3baec28aa4",
 				autoRegister: false,
 				notifyButton: {
-				enable: true /* Set to false to hide */
-			},
-			
+					enable: true /* Set to false to hide */
+				},
+				safari_web_id: 'web.onesignal.auto.4ddec2dc-5c48-40c7-bde8-da7159bee241'
 			}]);
 		</script>
 	</head>
